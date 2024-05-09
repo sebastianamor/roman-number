@@ -27,15 +27,15 @@ convertBtn.addEventListener('click', () => {
   const inputInt = parseInt(numbers.value);
 
   if (!numbers.value || isNaN(inputInt)) {
-    result.innerHTML = "<h1>Please enter a valid number</h1>";
+    result.innerHTML = "<h1>有効な番号を入力してください</h1>";
     return;
   }
 
   if (inputInt === -1) {
-    result.innerHTML = "Please enter a number greater than or equal to 1";
+    result.innerHTML = "1 以上の数値を入力してください";
     return;
   } if (inputInt === 4000) {
-    result.innerHTML = "Please enter a number less than or equal to 3999";
+    result.innerHTML = "3999 以下の数値を入力してください";
     return;
   } if (inputInt === 3999) {
     result.innerHTML = "MMMCMXCIX";

@@ -3,8 +3,8 @@
   --gray-05: #f5f6f7;
   --gray-15: #d0d0d5;
   --gray-75: #3b3b4f;
-  --gray-85: #1b1b32;
-  --gray-90: #0a0a23;
+  --purple-85: #5d0d81;
+  --gray-90: #2071bd;
   --blue-50: #198eee;
   --error: #a94442;
   --danger-color: #850000;
@@ -24,7 +24,7 @@ body {
   padding: 50px 20px;
   font-family: 'Lato', Helvetica, Arial, sans-serif;
   font-size: 18px;
-  background-color: var(--gray-85);
+  background-color: var(--purple-85);
   color: var(--gray-05);
 }
 
